@@ -1,0 +1,61 @@
+#menu{
+  background-color: black;
+  position: sticky;
+  top: 0;
+  opacity: 0.8;
+  z-index: 20;
+}
+#cssmenu{
+  display: inline-block;
+}
+#cssmenu ul,
+#cssmenu li,
+#cssmenu a{
+  margin: 0px;
+  padding: 0px;
+}
+#cssmenu a{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+#cssmenu ul{
+  list-style-type: none;
+}
+#cssmenu > ul > li{
+  float: left;
+}
+#cssmenu > ul > li > a{
+  line-height: 34px;
+  padding-right: 25px;
+}
+#cssmenu > ul > li > a:hover{
+  color:rgb(24, 250, 239);
+  border-bottom-style: solid;
+}
+#cssmenu .has-sub:hover ul{
+  display: block;
+  color: rgb(166, 255, 0);
+}
+#cssmenu .has-sub ul{
+  display: none;
+  position: absolute;
+}
+#cssmenu .has-sub ul li a{
+  border-bottom: 1px solid gainsboro;
+  border-left: 1px solid gainsboro;
+  display: block;
+  color: rgb(243, 247, 18);
+  font-size: 22px;
+  padding-top:3px;
+  padding-bottom: 3px;
+  padding-right: 35px;
+  text-align: left;
+}
+.subheader2:link, .subheader2:visited{ 
+  background-color: gray;
+}
+.subheader2:active, .subheader2:hover{
+  background-color: rgb(51, 2, 26);
+}
